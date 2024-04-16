@@ -1,5 +1,7 @@
 provider "aws" {
   region = "us-east-1" # Specifies the AWS region to use for the provider configuration.
+  access_key = "Your_aws_access_key" # Specifies the AWS_Access_key. 
+  secret_key = "your_aws_sceret_key" # Specifies the AWS_secret_key.
 }
 
 module "ec2_instance" {
