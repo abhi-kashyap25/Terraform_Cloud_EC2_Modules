@@ -1,5 +1,4 @@
-
-Terraform modules are a way to organize and encapsulate Terraform configuration files into reusable units. These modules can represent infrastructure components or even entire systems. Each module can have its own variables, outputs, and resources, allowing for easy reuse and customization.
+#Terraform modules are a way to organize and encapsulate Terraform configuration files into reusable units. These modules can represent infrastructure components or even entire systems. Each module can have its own variables, outputs, and resources, allowing for easy reuse and customization.
 
 Here are some key advantages of using Terraform modules:
 
