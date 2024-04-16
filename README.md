@@ -44,25 +44,25 @@ Once you have set up your Terraform Cloud account and created a workspace, you c
 ## Terraform Module for AWS EC2 Instances
 Terraform modules are reusable and shareable units of Terraform configuration that abstract away the details of creating and managing AWS EC2 instances. This README provides a structured explanation of Terraform modules for provisioning EC2 instances on AWS.
 
-**Abstraction**
+1. **Abstraction**
 Terraform modules abstract away the complexity of creating EC2 instances by encapsulating the necessary configuration into reusable units. This abstraction allows users to provision EC2 instances without needing to understand the underlying implementation details, promoting simplicity and ease of use.
 
-**Reusability**
+2. **Reusability**
 Terraform modules are reusable and shareable units of Terraform configuration that can be used across multiple projects or configurations. Once created, modules can be easily shared within an organization or publicly, enabling teams to leverage existing infrastructure components without duplicating efforts, thereby improving productivity and collaboration.
 
-**Parameterization**
+3. **Parameterization**
 Terraform modules can accept input variables, allowing users to customize the behavior and configuration of the module. Parameterization enables users to tailor modules to specific use cases or environments without modifying the underlying module code, providing flexibility and adaptability.
 
-**Encapsulation**
+4. **Encapsulation**
 Terraform modules encapsulate related resources and configurations into a single unit, promoting separation of concerns and modular design. Encapsulation helps in organizing and structuring Terraform code, making it easier to maintain and understand, thereby improving code readability and maintainability.
 
-**Composition**
+5. **Composition**
 Terraform modules can be composed together to build larger, more complex infrastructure configurations. Composition enables users to create sophisticated architectures by combining smaller, reusable components, allowing for the creation of infrastructure stacks that meet specific requirements and use cases.
 
-**Versioning and Dependency Management**
+6. **Versioning and Dependency Management**
 Terraform modules can be versioned and managed independently, facilitating version control and dependency management. Versioning ensures consistency across deployments and provides a mechanism for tracking changes over time, while dependency management helps in managing relationships between modules and ensuring correct behavior during provisioning.
 
-## Overall, Terraform modules provide a powerful mechanism for provisioning AWS EC2 instances in a modular, reusable, and maintainable way. They promote code reuse, modularity, and consistency, making it easier to manage infrastructure as code on AWS.
+**Overall, Terraform modules provide a powerful mechanism for provisioning AWS EC2 instances in a modular, reusable, and maintainable way. They promote code reuse, modularity, and consistency, making it easier to manage infrastructure as code on AWS.**
 
 
 
