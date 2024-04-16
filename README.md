@@ -1,4 +1,4 @@
-# Terraform Installation and Usage Guide
+# Terraform cloud & AWS EC2 Moudule
 
 This guide provides step-by-step instructions for installing Terraform, setting up Terraform Cloud, logging in to Terraform Cloud, and using a Terraform module for provisioning an EC2 instance on AWS.
 
